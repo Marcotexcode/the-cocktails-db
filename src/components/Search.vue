@@ -47,12 +47,14 @@ export default {
 </script>
 
 
-<style scoped lang= "scss">
+<style scoped lang="scss">
+
+    @import '@/style/variabili.scss';
 
     .container {
-        background-color: red;
+        background-color: $Carminio;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
 
         .container--search {
 

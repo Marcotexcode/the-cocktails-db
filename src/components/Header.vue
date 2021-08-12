@@ -3,7 +3,6 @@
 
     <div class="container">
 
-
         <img class="container--logo" src="@/assets/img/logo.png" alt="">
 
     </div>
@@ -17,27 +16,24 @@
 
         name: 'Header',
 
-        components: {
-
-
-        },
-
     }
 
 </script>
 
 
-<style scoped lang= "scss">
+<style scoped lang="scss">
+
+    @import '@/style/variabili.scss';
 
     .container {
         text-align: center;
         width: 100%;
-        padding: 10px;
-        background-color: red;
+        padding: 30px;
+        background-color: $Carminio;
 
         .container--logo {
-            width: 15%;
-            
+            width: 25%;
+                
         }
 
     }
